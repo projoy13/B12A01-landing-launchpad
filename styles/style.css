@@ -66,10 +66,21 @@ color: blue;
 
 }
 .commitm{
+   /*
     background-color: blue;
     border: none;
  font-weight: bold;
     color: aliceblue;
+    */
+     font-size:16px ;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: blue;
+    padding:12px 36px 12px 36px  ;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+
 }
 .fifth{
     padding-left: 43%;
@@ -214,4 +225,33 @@ border-radius: 10px;
 }
 main{
     width: 1140px;
+}
+.ff{
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 5px light grey;
+}
+.form h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.btt{
+font-size:16px ;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: blue;
+    padding:12px 36px 12px 36px  ;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mmm{
+    font-size: 18px;
+    font-weight: medium;
+    color: black;
 }
