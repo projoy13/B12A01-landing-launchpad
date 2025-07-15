@@ -12,7 +12,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+main{
+    margin: auto;
+}
 
 
 .first{
@@ -92,7 +94,7 @@ div p{
 }
 .flow{
     display: flex;
-    d
+    margin-top: 20px;
 }
 .mini{
     width: 403px;
@@ -101,4 +103,38 @@ div p{
 }
 .sing button{
     margin-top: 52px;
+}
+.num{
+    font-size: 80px;
+    font-weight: bold;
+
+}
+.joint{
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(25, 24, 24);
+}
+.joy{
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+.half{
+    margin-top: 100px;
+    
+}
+.joint {
+    text-align: center;
+
+}
+.half{
+    background-color:rgba(78, 71, 255, 0.1) ;
+    width: 800px;
+    border: 2px;
+    
+    
+}
+.join{
+    padding: 50px 80px 50px 80px;
 }
