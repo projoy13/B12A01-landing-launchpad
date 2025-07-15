@@ -255,3 +255,29 @@ font-size:16px ;
     font-weight: medium;
     color: black;
 }
+.last h1{
+    font-size: 100px;
+    color: blue;
+    text-align: center;
+   
+}
+.last p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.all-last{
+    display: flex;
+justify-content:space-between ;
+color: light grey;
+
+
+}
+footer{
+    width: 1300px;
+    
+}
+.all-last p{
+    font-size: 20px;
+    
+}
