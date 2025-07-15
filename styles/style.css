@@ -13,7 +13,8 @@
   font-style: normal;
 }
 main{
-    margin: auto;
+    margin: 0px auto;
+    width: 1340px;
 }
 
 
@@ -131,10 +132,45 @@ div p{
 .half{
     background-color:rgba(78, 71, 255, 0.1) ;
     width: 800px;
+    height: 600px;
     border: 2px;
     
     
 }
 .join{
     padding: 50px 80px 50px 80px;
+}
+.num{
+    color: blue;
+}
+.inside-card{
+    display: flex;
+    align-items: center;
+}
+.user{
+    text-align: center;
+}
+.inside-card h4{
+    color: darkgrey;
+
+}
+.inside-card p{
+    color: lightgray;
+    font-size: 15px;
+}
+.star{
+    display: flex;
+}
+.opinion-card{
+     border: 2px solid grey;
+  padding: 24px 24px 24px 24px;
+    gap: 20px;
+
+
+}
+.all-card{
+    display: flex;
+    padding-top: 50px;
+    margin: 20px;
+    
 }
