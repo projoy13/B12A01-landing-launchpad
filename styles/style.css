@@ -164,13 +164,20 @@ div p{
 .opinion-card{
      border: 2px solid grey;
   padding: 24px 24px 24px 24px;
-    gap: 20px;
-
+    
+border-radius: 10px;
 
 }
 .all-card{
     display: flex;
     padding-top: 50px;
     margin: 20px;
-    
+    align-items: center;
+    gap: 20px;
+     
+}
+.focus{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
 }
