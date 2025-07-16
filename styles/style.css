@@ -354,3 +354,9 @@ footer{
 }
 
 
+button:hover{
+    background-color: yellow;
+    transition: 1s ease;
+    color: black;
+
+}
