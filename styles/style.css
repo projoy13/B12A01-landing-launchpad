@@ -145,13 +145,20 @@ div p{
 }
 .half{
     background-color:rgba(78, 71, 255, 0.1) ;
-    width: 800px;
-    height: 600px;
-    border: 2px;
-    margin-left: 15%;
-    margin-right: 25%;
+    width: 100%;
+   
+    
+  
+    border-radius: 10px;
     
     
+}
+.ready{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .join{
     padding: 50px 80px 50px 80px;
@@ -206,59 +213,39 @@ background-color: rgb(247, 244, 241);
     font-size: 20px;
 }
 .get {
-     font-weight: bold;
-    color:white ;
-   background-color: blue;
-    padding:12px 36px 12px 36px ;
-   border: none;
-   border-radius: 10px;
-   margin-left: 40%;
-   margin-right: 50%;
- 
-   
-}
-.wc  img{
-    width: 840px;
-    height: 364px;
-    border-radius: 10px;
-    padding-top: 20px;
-     margin-left: 10%;
-   margin-right: 20%;
-
-}
-main{
-    width: 1140px;
-}
-.ff{
-    margin-bottom: 20px;
-    text-align: left;
-    border-radius: 5px light grey;
-}
-.form h1{
-    font-size: 97px;
-    font-weight: bold;
-}
-.btt{
-font-size:16px ;
+    font-size:16px ;
     font-weight: bold;
     color: aliceblue;
     background-color: blue;
     padding:12px 36px 12px 36px  ;
     border: none;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 10px
+     /* font-weight: bold;
+    color:white ;
+   background-color: blue;
+    /* padding:12px 36px 12px 36px ; */
+   /* border: none;
+   border-radius: 10px;
+   margin-left: 40%;
+   margin-right: 50%;
+  */ 
+
+   
 }
-.form{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.ready  img{
     
+    height: 364px;
+    
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
 }
-.mmm{
-    font-size: 18px;
-    font-weight: medium;
-    color: black;
+
+main{
+    width: 1140px;
 }
+
 .last h1{
     font-size: 100px;
     color: blue;
@@ -276,13 +263,80 @@ justify-content:space-between ;
 color: light grey;
 
 
-}
-footer{
-    width: 1300px;
+}.form{
+    
+margin-bottom: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
     
 }
-.all-last p{
+.form h1{
+    font-size: 97px;
+    font-weight: bold;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    
+}
+
+input{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgb(189, 189, 189);
+    
+    
+}
+
+
+label{
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+
+textarea{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+     border: 1px solid rgb(189, 189, 189);
+     margin-bottom: 20px;
+}
+.btnn{
+    background-color: blue;
+    color: aliceblue;
+    padding: 12px 36px ;
+    border-radius: 5px;
+
+    border: white;
+
+
+}
+
+
+
+
+
+
+
+footer{
+    width: 1300px;
+    text-align: center;
+    
+}
+.all-last a{
     font-size: 20px;
+    color: rgb(200, 196, 196);
+    text-decoration: none;
+   
+    
+   
     
 }
 .paa{
@@ -290,6 +344,8 @@ footer{
    margin-top: 5cm;
 }
 .goal{
-  
-    margin-top: 2cm;
+    background-color: aliceblue;
+    border-radius: 5px;
 }
+
+
