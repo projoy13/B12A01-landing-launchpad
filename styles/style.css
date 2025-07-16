@@ -179,10 +179,13 @@ div p{
     display: flex;
 }
 .opinion-card{
-     border: 2px solid grey;
+     border: 2px solid rgb(246, 245, 245);
   padding: 24px 24px 24px 24px;
     
 border-radius: 10px;
+
+border-radius: 2px light grey;
+background-color: rgb(247, 244, 241);
 
 }
 .all-card{
@@ -249,6 +252,7 @@ font-size:16px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .mmm{
     font-size: 18px;
@@ -280,4 +284,12 @@ footer{
 .all-last p{
     font-size: 20px;
     
+}
+.paa{
+   background-color: aliceblue;
+   margin-top: 5cm;
+}
+.goal{
+  
+    margin-top: 2cm;
 }
