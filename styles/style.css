@@ -12,6 +12,11 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.root1{
+    margin: auto ;
+    width: 1300px;
+   
+}
 main{
     margin: 0px auto;
     width: 1340px;
@@ -112,7 +117,7 @@ div p{
     width: 403px;
     height:328px;
     margin-left: 203px;
-
+border-radius: 15px;
 }
 .sing button{
     margin-top: 52px;
@@ -315,15 +320,9 @@ textarea{
     border-radius: 5px;
 
     border: white;
-
+width: 240px;
 
 }
-
-
-
-
-
-
 
 footer{
     width: 1300px;
@@ -334,11 +333,17 @@ footer{
     font-size: 20px;
     color: rgb(200, 196, 196);
     text-decoration: none;
-   
-    
-   
+    margin-bottom: 100px;
     
 }
+.inlast{
+    width: 401px;
+    margin: auto;
+}
+
+
+
+
 .paa{
    background-color: aliceblue;
    margin-top: 5cm;
